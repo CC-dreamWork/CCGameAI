@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.1f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -260,7 +262,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="CC.UpdateManager">
-      <HintPath>Assets/MyProJect/CCDLL/CC.UpdateManager.dll</HintPath>
+      <HintPath>Assets/MyProjectfile/CCDLL/CC.UpdateManager.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/SEELE/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -286,21 +288,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\dasfdsfdsf.cs" />
-    <Compile Include="Assets\MyProJect\Core\Util.cs" />
-    <Compile Include="Assets\MyProJect\Core\W_ActionNode.cs" />
-    <Compile Include="Assets\MyProJect\Core\W_BTNode.cs" />
-    <Compile Include="Assets\MyProJect\Core\W_Parallel.cs" />
-    <Compile Include="Assets\MyProJect\Core\W_Precondition.cs" />
-    <Compile Include="Assets\MyProJect\Core\W_PrioritySelector.cs" />
-    <Compile Include="Assets\MyProJect\Core\W_Sequence.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCAITool\CCActionBase.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCAITool\CCAIState.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCAITool\CCBTBase.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCAITool\CCIFolderAI\IGetHit.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCAITool\CCPlayerState.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCTool\CCU.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCUITool\CCUIManager.cs" />
-    <Compile Include="Assets\MyProJect\Spripts\CCUpdataTool\CCBehaviour.cs" />
+    <Compile Include="Assets\MyProjectfile\Core\Util.cs" />
+    <Compile Include="Assets\MyProjectfile\Core\W_ActionNode.cs" />
+    <Compile Include="Assets\MyProjectfile\Core\W_BTNode.cs" />
+    <Compile Include="Assets\MyProjectfile\Core\W_Parallel.cs" />
+    <Compile Include="Assets\MyProjectfile\Core\W_Precondition.cs" />
+    <Compile Include="Assets\MyProjectfile\Core\W_PrioritySelector.cs" />
+    <Compile Include="Assets\MyProjectfile\Core\W_Sequence.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCAITool\CCActionBase.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCAITool\CCAIState.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCAITool\CCBTBase.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCAITool\CCIFolderAI\IGetHit.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCAITool\CCPlayerState.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCAITool\CCPrecondition.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCAITool\CCPrioritySelector.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCTool\CCU.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCUITool\CCUIManager.cs" />
+    <Compile Include="Assets\MyProjectfile\Spripts\CCUpdataTool\CCBehaviour.cs" />
     <Compile Include="Assets\Scripts\Action\Action.cs" />
     <Compile Include="Assets\Scripts\Action\AttackAction.cs" />
     <Compile Include="Assets\Scripts\Action\ChaseAction.cs" />
@@ -314,6 +318,9 @@
     <Compile Include="Assets\Scripts\State\EnemyStats.cs" />
     <Compile Include="Assets\Scripts\State\State.cs" />
     <Compile Include="Assets\Scripts\State\StateController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MyProjectfile\Resources\Effect\shader\Shaders\AditiveUV_SA.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
